@@ -37,7 +37,7 @@ document.onkeyup = (event) => {
             losses++;
 
             lossesScore.textContent = losses;
-            wins = 0;
+            // wins = 0;
             winsScore.textContent = wins;
             guessesSoFar.textContent = '';
         }
